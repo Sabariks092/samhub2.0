@@ -1,0 +1,17 @@
+import Footer from "@/components/home/home-ten/footer";
+import Header from "@/components/home/home-ten/header/multi-page";
+export const metadata = {
+	title: "Samhub Innovations | Best Branding Agency In Puducherry",
+	description: "Samhub Innovations | Best Branding Agency In Puducherry",
+};
+function LayoutTen({ children }) {
+	return (
+		<>
+			<Header />
+			{children}
+			<Footer />
+		</>
+	);
+}
+
+export default LayoutTen;
